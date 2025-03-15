@@ -1,0 +1,16 @@
+torch
+black
+numpy
+pandas
+# pre-commit
+scipy
+torch-cluster
+torch-geometric
+torch-scatter
+torch-sparse
+ase==3.21.*
+pymatgen==2024.3.1
+mp-api
+# openai
+# google-generativeai
+jupyter 
