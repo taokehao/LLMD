@@ -15,6 +15,7 @@ gpt_client = Client(
     api_key='app-YgM4Zw0JF8liojB5Rvb8njXo',
     endpoint='http://localhost/v1/chat-messages',
     history_thresh=0,
+    # wait_time=60,
     mask='Your are a professor in material science. You are going to help with optimizing a material with your experience in your field.'
 )
 
@@ -31,7 +32,7 @@ structure = Structure().read_cif('./Li7La3Zr2O12.cif')
 
 workflow = Workflow(
     agent=agent, input_structure=structure,
-    target_value=0.3, maximum_iterations=30,
+    target_value=0.4, maximum_iterations=30,
     maximum_error=0.1,
     log_dir='./output', log_file_name='output.log'
 )

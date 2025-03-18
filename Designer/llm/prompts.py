@@ -39,6 +39,7 @@ symbol of the new atom.
 5. Modifications should not be performed to Lithium and nonmetal elements. And the candidate elements \
 for substitution should be among transition metals.
 6. Be careful about the ' and " in the sentence which may violate the Python syntax, you should properly use \\ to avoid that.
+7. You can refer to the relevant contents of the knowledge base when modifying.
 """
 
 
@@ -77,6 +78,7 @@ Requirements:
     - For "substitute": $ARG1 is the atom index and $ARG2 is the new element symbol.
 5. Do not modify Lithium or nonmetals. Substitutions should only use transition metals.
 6. Ensure correct Python syntax, escaping quotes as needed.
+7. You can refer to the relevant contents of the knowledge base when modifying.
 """
 
 
@@ -121,6 +123,7 @@ For "substitute", $ARG1 should be the index of the atom to be substituted same a
 symbol of the new atom.
 5. Modifications should not be performed to Lithium and nonmetal elements. And the candidate elements \
 for substitution should be among transition metals.
+6. You can refer to the relevant contents of the knowledge base when modifying.
 """
 
 

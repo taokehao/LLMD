@@ -76,6 +76,7 @@ class Client:
             ...
         else:
             warnings.warn(f"Request failed with status code {response.status_code}")
+            print(response.json())
             valid_flag = False
             for i in range(self.retry):
                 time.sleep(self.wait_time)

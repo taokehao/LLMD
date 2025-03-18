@@ -229,7 +229,7 @@ class Workflow:
         if tee:
             print(content)
         if self.log_dir is not None:
-            with open(os.path.join(self.log_dir, self.log_file_name), "a") as f:
+            with open(os.path.join(self.log_dir, self.log_file_name), "a", encoding="utf-8") as f:
                 if content.endswith("\n"):
                     f.write(content)
                 else:
