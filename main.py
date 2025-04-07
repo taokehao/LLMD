@@ -5,8 +5,8 @@ from Designer.workflow import LLMDAgent, Workflow
 
 
 # gpt_client = Client(
-#     api_key='sk-4od2iUvlA5xksbG761A2D1Fd5c014c7f9fC072002f21E100',
-#     endpoint='https://tb.plus7.plus/v1/chat/completions',
+#     api_key='***',
+#     endpoint='***',
 #     history_thresh=0,
 #     mask='Your are a professor in material science. You are going to help with optimizing a material with your experience in your field.'
 # )
